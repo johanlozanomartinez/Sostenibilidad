@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Innovacion extends Model
+{
+    use HasFactory;
+
+
+    protected $fillable = [
+
+        'id_innovacion',
+        'practicas',
+        'desempeño',
+        'id_unidad',
+
+
+
+    ];
+}
